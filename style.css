@@ -1,5 +1,5 @@
 nav {
-    
+    color: white;
     background-color: rgb(27, 25, 24);
 
 }
@@ -7,24 +7,27 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
+    justify-items: left;
+    
 }
 
 header {
+    display: flex;
     padding: 2rem;
     background-color: #F29A1F;
     justify-content: center;
     color: white;
-}
+
 
 .menu {
-align-items: center;
-justify-content: right;
-text-align: center;
-}	
+display: center;
+}
 
 .menu-grupo {
-text-align: left;
+    display: flex;
+    padding: 1rem;
 justify-content: center;
+text-align: left;
 }
 
 .menu-item{
